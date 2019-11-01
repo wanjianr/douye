@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block title %}注册-用户注册页面{% endblock %}
+{% block content %}
+<section class="container page-single">
+	<div class="wrap-container zerogrid">
+		<div class="col_register">
+			<div id="main-content" class="wrap-col">
+				<article class="single">
+					<div class="wrap-art">
+						<div class="col_form">
+							<div class="wrap_form">
+									<form method="post">
+										<ul>
+										<center><li>
+											<label>用户名</label>
+											<input type="text" name="user_name" id="user_name">
+										</li>					
+										<li>
+											<label>密码</label>
+											<input type="password" name="pwd" id="pwd">
+										</li>
+										<li>
+											<label>确认密码</label>
+											<input type="password" name="cpwd" id="cpwd">
+										</li>
+										<li>
+											<label>邮箱</label>
+											<input type="text" name="email" id="email">
+										</li>
+										<p style="color: red;">{{ error_info }}</p>
+										<li class="reg_sub">
+											<input type="submit" value="注 册" name="">
+										</li></center>
+										</ul>
+									</form>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}

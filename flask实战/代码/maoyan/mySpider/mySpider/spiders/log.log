@@ -1,0 +1,296 @@
+2019-10-26 21:47:27 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:47:27 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:47:27 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:47:27 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:47:28 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:47:28 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:47:28 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:47:28 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:47:28 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:47:29 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:47:29 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:47:29 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:49:15 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:49:16 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:49:16 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:49:16 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:49:16 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:49:16 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:49:16 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:49:17 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:49:17 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:49:17 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:49:17 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-26 21:49:17 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: --正在抓取列表页面信息--
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: https://maoyan.com/films/1203
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: --正在抓取列表页面信息--
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: https://maoyan.com/films/1297
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: --正在抓取列表页面信息--
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: https://maoyan.com/films/2641
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: --正在抓取列表页面信息--
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: https://maoyan.com/films/4055
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: --正在抓取列表页面信息--
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: https://maoyan.com/films/267
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: --正在抓取列表页面信息--
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: https://maoyan.com/films/837
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: --正在抓取列表页面信息--
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: https://maoyan.com/films/2760
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: --正在抓取列表页面信息--
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: https://maoyan.com/films/7431
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: --正在抓取列表页面信息--
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: https://maoyan.com/films/1228
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: --正在抓取列表页面信息--
+2019-10-28 19:13:33 [mySpider.spiders.maoyan] WARNING: https://maoyan.com/films/3667
+2019-10-28 19:13:34 [mySpider.spiders.maoyan] WARNING: --正在抓取详情页面信息--
+2019-10-28 19:13:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://verify.meituan.com/v2/web/general_page?action=spiderindefence&requestCode=0d8e7e53acbb4426a12e7daa54c720c8&platform=1000&adaptor=auto&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttp%253A%252F%252Fmaoyan.com%252Ffilms%252F7431> (referer: https://maoyan.com/board/4?offset=0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/www/maoyan/mySpider/mySpider/spiders/maoyan.py", line 50, in detail_page
+    item['site'] = response.xpath('//*/div[3]/div/div[2]/div[1]/ul/li[2]/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-10-28 19:13:34 [mySpider.spiders.maoyan] WARNING: --正在抓取详情页面信息--
+2019-10-28 19:13:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://verify.meituan.com/v2/web/general_page?action=spiderindefence&requestCode=4d033115ee624941ada9b38b091c8bd4&platform=1000&adaptor=auto&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttp%253A%252F%252Fmaoyan.com%252Ffilms%252F267> (referer: https://maoyan.com/board/4?offset=0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/www/maoyan/mySpider/mySpider/spiders/maoyan.py", line 50, in detail_page
+    item['site'] = response.xpath('//*/div[3]/div/div[2]/div[1]/ul/li[2]/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-10-28 19:13:34 [mySpider.spiders.maoyan] WARNING: --正在抓取详情页面信息--
+2019-10-28 19:13:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://verify.meituan.com/v2/web/general_page?action=spiderindefence&requestCode=3446671bf2d34241b98b770abe530ba7&platform=1000&adaptor=auto&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttp%253A%252F%252Fmaoyan.com%252Ffilms%252F3667> (referer: https://maoyan.com/board/4?offset=0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/www/maoyan/mySpider/mySpider/spiders/maoyan.py", line 50, in detail_page
+    item['site'] = response.xpath('//*/div[3]/div/div[2]/div[1]/ul/li[2]/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-10-28 19:13:34 [mySpider.spiders.maoyan] WARNING: --正在抓取详情页面信息--
+2019-10-28 19:13:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://verify.meituan.com/v2/web/general_page?action=spiderindefence&requestCode=7ff0f66b5d3c47f7a4b3a8684f2ec206&platform=1000&adaptor=auto&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttp%253A%252F%252Fmaoyan.com%252Ffilms%252F1203> (referer: https://maoyan.com/board/4?offset=0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/www/maoyan/mySpider/mySpider/spiders/maoyan.py", line 50, in detail_page
+    item['site'] = response.xpath('//*/div[3]/div/div[2]/div[1]/ul/li[2]/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-10-28 19:13:34 [mySpider.spiders.maoyan] WARNING: --正在抓取详情页面信息--
+2019-10-28 19:13:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://verify.meituan.com/v2/web/general_page?action=spiderindefence&requestCode=2e317696a693418a816180c01f6d23b3&platform=1000&adaptor=auto&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttp%253A%252F%252Fmaoyan.com%252Ffilms%252F2641> (referer: https://maoyan.com/board/4?offset=0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/www/maoyan/mySpider/mySpider/spiders/maoyan.py", line 50, in detail_page
+    item['site'] = response.xpath('//*/div[3]/div/div[2]/div[1]/ul/li[2]/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-10-28 19:13:34 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-28 19:13:34 [mySpider.spiders.maoyan] WARNING: --正在抓取详情页面信息--
+2019-10-28 19:13:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://verify.meituan.com/v2/web/general_page?action=spiderindefence&requestCode=4bcee1ec88884dd7b516140d752d8d81&platform=1000&adaptor=auto&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttp%253A%252F%252Fmaoyan.com%252Ffilms%252F4055> (referer: https://maoyan.com/board/4?offset=0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/www/maoyan/mySpider/mySpider/spiders/maoyan.py", line 50, in detail_page
+    item['site'] = response.xpath('//*/div[3]/div/div[2]/div[1]/ul/li[2]/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-10-28 19:13:34 [mySpider.spiders.maoyan] WARNING: --正在抓取详情页面信息--
+2019-10-28 19:13:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://verify.meituan.com/v2/web/general_page?action=spiderindefence&requestCode=f261cccdcb50423d8195a0da05cdcc9f&platform=1000&adaptor=auto&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttp%253A%252F%252Fmaoyan.com%252Ffilms%252F1228> (referer: https://maoyan.com/board/4?offset=0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/www/maoyan/mySpider/mySpider/spiders/maoyan.py", line 50, in detail_page
+    item['site'] = response.xpath('//*/div[3]/div/div[2]/div[1]/ul/li[2]/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-10-28 19:13:34 [mySpider.spiders.maoyan] WARNING: --正在抓取详情页面信息--
+2019-10-28 19:13:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://verify.meituan.com/v2/web/general_page?action=spiderindefence&requestCode=ed63250f0ea0447299e0ac16d49d3e06&platform=1000&adaptor=auto&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttp%253A%252F%252Fmaoyan.com%252Ffilms%252F837> (referer: https://maoyan.com/board/4?offset=0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/www/maoyan/mySpider/mySpider/spiders/maoyan.py", line 50, in detail_page
+    item['site'] = response.xpath('//*/div[3]/div/div[2]/div[1]/ul/li[2]/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-10-28 19:13:34 [mySpider.spiders.maoyan] WARNING: --正在抓取详情页面信息--
+2019-10-28 19:13:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://verify.meituan.com/v2/web/general_page?action=spiderindefence&requestCode=ce493e583b644d87beffd7cc898f4cd6&platform=1000&adaptor=auto&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttp%253A%252F%252Fmaoyan.com%252Ffilms%252F1297> (referer: https://maoyan.com/board/4?offset=0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/www/maoyan/mySpider/mySpider/spiders/maoyan.py", line 50, in detail_page
+    item['site'] = response.xpath('//*/div[3]/div/div[2]/div[1]/ul/li[2]/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-10-28 19:13:34 [mySpider.spiders.maoyan] WARNING: --正在抓取详情页面信息--
+2019-10-28 19:13:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://verify.meituan.com/v2/web/general_page?action=spiderindefence&requestCode=f9e1fbd990b74ef6840ef9dbba29ca44&platform=1000&adaptor=auto&succCallbackUrl=https%3A%2F%2Foptimus-mtsi.meituan.com%2Foptimus%2FverifyResult%3ForiginUrl%3Dhttp%253A%252F%252Fmaoyan.com%252Ffilms%252F2760> (referer: https://maoyan.com/board/4?offset=0)
+Traceback (most recent call last):
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/root/.virtualenvs/flaskweb/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/www/maoyan/mySpider/mySpider/spiders/maoyan.py", line 50, in detail_page
+    item['site'] = response.xpath('//*/div[3]/div/div[2]/div[1]/ul/li[2]/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-10-28 19:13:34 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-28 19:13:34 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-28 19:13:34 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-28 19:13:35 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-28 19:13:35 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-28 19:13:35 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-28 19:13:35 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-28 19:13:35 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-28 19:13:36 [mySpider.spiders.maoyan] WARNING: --响应成功--
+2019-10-28 19:13:36 [mySpider.spiders.maoyan] WARNING: --响应成功--

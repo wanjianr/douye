@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block title %}登陆-用户登陆页面{% endblock %}
+    
+{% block content %}
+<section class="container page-single">
+	<div class="wrap-container zerogrid">
+		<div class="col_register">
+			<div id="main-content" class="wrap-col">
+				<article class="single">
+					<div class="wrap-art">
+						<div class="col_form">
+							<div class="wrap-col">
+								<div id="contact_form">
+									<form method="post">
+										<center><label>
+										<span>用户名</span><input type="text"  name="name" id="name" required placeholder="请输入用户名">
+										</label>
+										<label>
+										<span>密码</span>
+										<input type="password"  name="pwd" id="pwd" required placeholder="请输入密码">
+										</label>
+										<input class="sendButton" type="submit" name="Submit" value="Submit"></center>
+									</form>
+									<p style="color: red;">{{ error_info }}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>{% block title %}{% endblock %}</title>
+	<meta name="description" content="Free Responsive Html5 Css3 Templates | zerotheme.com">
+	<meta name="author" content="www.zerotheme.com">
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+  	<link rel="stylesheet" type='text/css' href="{{ url_for('static', filename='css/zerogrid.css') }}">
+	<link rel="stylesheet" type='text/css' href="{{ url_for('static', filename='css/style.css') }}">
+	<link rel="stylesheet" type='text/css' href="{{ url_for('static', filename='css/component.css') }}">
+	<link rel="stylesheet" type='text/css' href="{{ url_for('static', filename='css/responsive.css') }}">
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+	<link href="{{ url_for('static', filename='images/favicon.ico') }}" rel='icon' type='image/x-icon'/>
+    
+</head>
+<body>
+<div class="wrap-body">
+
+<!--////////////////////////////////////Header-->
+<header>
+	<div class="top-header">
+		<div class="wrap-top zerogrid">
+			<nav>
+			  <a class="toggleMenu" href="#">Menu</a>
+			  <ul class="menu">
+			  	  <li><a href="{{ url_for('index',page=1) }}">Home</a></li>
+			      {% if user %}
+					  <li><a href="{{ url_for('logout') }}">Logot</a></li>
+					  <li><a href="#">{{ user.name }}</a></li>
+				  {% else %}
+					  <li><a href="{{ url_for('login') }}">Login</a></li>
+					  <li><a href="{{ url_for('register') }}">Sign Up</a></li>
+				  {% endif %}
+				  <li><a href="{{ url_for('update') }}">Update</a></li>
+			  </ul>
+			</nav>
+		</div>
+	</div>
+	<div class="wrap-header">
+		<div class="zerogrid">
+			<div id="logo"><a href="index.html"><img src="{{ url_for('static',filename='images/logo.png') }}"/></a></div>
+			<div class="header-social">
+				<a href="#"><img src="{{ url_for('static',filename='images/facebook.png') }}" title="facebook"/></a>
+				<a href="#"><img src="{{ url_for('static',filename='images/twitter.png') }}" title="twitter"/></a>
+				<a href="#"><img src="{{ url_for('static',filename='images/google.png') }}" title="google"/></a>
+				<a href="#"><img src="{{ url_for('static',filename='images/pinterest.png') }}" title="pinterest"/></a>
+				<a href="#"><img src="{{ url_for('static',filename='images/instagram.png') }}" title="instagram"/></a>
+			</div>
+			<div class="header-search">
+				<center><form method="post" action="{{ url_for('search') }}" id="search">
+				  <input name="search" type="text" size="40" placeholder="Type key to search" />
+				</form></center>
+			</div>
+		</div>
+	</div>
+</header>
+
+{% block content %}{% endblock %}
+
+<!--////////////////////////////////////Footer-->
+<footer>
+	<div class="copyright">
+		<p>Copyright &copy; 2019.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+	</div>
+</footer>
+</div>
+<script type="text/javascript" src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static',filename='js/navigation.js') }}"></script>
+</body></html>

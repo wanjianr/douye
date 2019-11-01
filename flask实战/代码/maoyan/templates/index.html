@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% block title %}首页-电影Top100{% endblock %}
+{% block content %}
+<section id="container">
+	<div class="wrap-container zerogrid">
+		{% for movie in film %}
+		<div class="row">
+			<div class="col-1-2">
+				<div class="wrap-col">
+					<article class="bg-red">
+						<div class="art-header">
+							<a href="{{ url_for('detail',movie_id=movie[0].id) }}"><img src="{{ movie[0].pic_url }}"/></a>
+						</div>
+						<div class="art-content">
+							<div class="col-1-3 right">
+								<div class="wrap-col">
+									<div class="info">
+										<ul class="clearfix">
+											<li><a href="#" class="rank"><img src="{{ url_for('static',filename='images/rank1.png') }}" />{{ movie[0].rank }}</a></li>
+											<li><a href="#">{{ movie[0].time }}</a></li>
+											<li><a href="#">{{ movie[0].site }}</a></li>
+											<li class="last"><a href="{{ url_for('detail',movie_id=movie[0].id) }}">Leave a comment</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-2-3 bg-white">
+								<div class="wrap-col">
+									<div class="main-post">
+										<h2 class="title"><a href="single.html">{{ movie[0].name }}</a></h2>
+										<p>{{ movie[0].intro }}</p>
+									</div>	
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+			<div class="col-1-2">
+				<div class="wrap-col">
+					<article class="bg-yellow">
+						<div class="art-header">
+							<a href="{{ url_for('detail',movie_id=movie[1].id) }}"><img src="{{ movie[1].pic_url }}"/></a>
+						</div>
+						<div class="art-content">
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="info">
+										<ul class="clearfix">
+											<li><a href="#" class="rank"><img src="{{ url_for('static',filename='images/rank1.png') }}"  />{{ movie[1].rank }}</a></li>
+											<li><a href="#">{{ movie[1].time }}</a></li>
+											<li><a href="#">{{ movie[1].site }}</a></li>
+											<li class="last"><a href="{{ url_for('detail',movie_id=movie[1].id) }}">Leave a comment</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-2-3 bg-white">
+								<div class="wrap-col">
+									<div class="main-post">
+										<h2 class="title"><a href="single.html">{{ movie[1].name }}</a></h2>
+										<p>{{ movie[1].intro }}[...]</p>
+									</div>
+								</div>
+							</div>	
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>		
+		{% endfor %}
+	</div>
+	<div id="pagination" class="clearfix">
+		<ul>
+			{% if film_index.has_prev %}	
+				<li><a href="{{ url_for('index',page=film_index.prev_num) }}">forword</a></li>
+			{% endif %}
+			<li><a {% if film.page == 1 %}class="current"{% endif %} href="{{ url_for('index',page=1) }}">1</a></li>
+			<li><a {% if film.page == 2 %}class="current"{% endif %} href="{{ url_for('index',page=2) }}">2</a></li>
+			<li><a {% if film.page == 3 %}class="current"{% endif %} href="{{ url_for('index',page=3) }}">3</a></li>
+			<li><a {% if film.page == 4 %}class="current"{% endif %} href="{{ url_for('index',page=4) }}">4</a></li>
+			{% if film_index.has_next %}
+				<li><a href="{{ url_for('index',page=film_index.next_num) }}">next</a></li>
+			{% endif %}
+		</ul>
+	</div>
+</section>
+{% endblock %}
